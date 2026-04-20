@@ -152,4 +152,5 @@ src/
 ---
 
 **¡La aplicación está completamente funcional y lista para usar!** 🎉</content>
-<parameter name="filePath">README.md# TareaWed
+<parameter name="filePath">
+

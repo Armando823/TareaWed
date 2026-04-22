@@ -19,3 +19,7 @@ app.get("/favoritos", (req, res) => res.render("favoritos"));
 app.listen(3000, () => {
   console.log("Servidor en http://localhost:3000");
 });
+
+app.get("/api/contactos", (req, res) => {
+  res.json(["Juan", "Maria", "Carlos"]);
+});

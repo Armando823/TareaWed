@@ -4,7 +4,7 @@ const path = require("path");
 
 // CONFIGURACIÓN
 app.set("view engine", "ejs");
-app.set("views", path.join(__dirname, "views"));
+app.set("views", path.join(__dirname, "src/views/index.ejs"));
 
 // MIDDLEWARES
 app.use(express.static(path.join(__dirname, "public")));

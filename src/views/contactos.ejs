@@ -1,20 +1,12 @@
-function cargarContactos(){
-  fetch('/api/contactos')
-    .then(res => res.json())
-    .then(data => {
-      let lista = document.getElementById("lista");
-      lista.innerHTML = "";
-      data.forEach(c => {
-        lista.innerHTML += `<li>${c}</li>`;
-      });
-    });
-}
-
 <%- include('partials/navbar') %>
 
 <div class="container mt-4">
   <h2>Contactos</h2>
-  <button onclick="cargarContactos()" class="btn btn-success">Cargar</button>
+
+  <button onclick="cargarContactos()" class="btn btn-success">
+    Cargar contactos
+  </button>
+
   <ul id="lista"></ul>
 </div>
 

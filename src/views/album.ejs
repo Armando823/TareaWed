@@ -5,12 +5,25 @@
 
   <% for(let i=1; i<=3; i++) { %>
     <h4>Álbum <%= i %></h4>
+
     <div class="row">
       <% for(let j=1; j<=6; j++) { %>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
+          
           <img src="/img/foto.jpg" class="img-fluid">
+
+          <!-- LIKE -->
           <button onclick="like(this)" class="btn btn-primary mt-2">👍 Me gusta</button>
           <p>0</p>
+
+          <!-- COMENTARIO -->
+          <input type="text" class="form-control mt-1" placeholder="Comentario">
+          
+          <!-- COMPARTIR -->
+          <button class="btn btn-success mt-1" onclick="alert('Compartido!')">
+            🔗 Compartir
+          </button>
+
         </div>
       <% } %>
     </div>

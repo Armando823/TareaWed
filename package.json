@@ -1,0 +1,25 @@
+{
+  "name": "tareawed",
+  "version": "1.0.0",
+  "description": "Una aplicación web moderna construida con Node.js, Express, EJS y Bootstrap que simula la interfaz de Facebook con módulos de perfil, álbumes, contactos y favoritos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armando823/TareaWed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Armando823/TareaWed/issues"
+  },
+  "homepage": "https://github.com/Armando823/TareaWed#readme",
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  }
+}
